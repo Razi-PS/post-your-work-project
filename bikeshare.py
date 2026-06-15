@@ -17,10 +17,10 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city_list = ", ".join([city.title() for city in CITY_DATA.keys()])
-    city_choice = f"Which city would you like to analyze ({city_list}): "
+    city_prompt = f"Which city would you like to analyze ({city_list}): "
     
     while True:
-        city = input(city_choice).lower()
+        city = input(city_prompt).lower()
         if city in CITY_DATA:
             break
         else:
@@ -215,7 +215,7 @@ def main():
         
         # Handle when the dataframe is empty
         if df.empty:
-            print("\nNo data found for the selected filters. Please try a different month/day combination.")
+            print("\nNo data were found for the selected filters. Please try a different month/day combination.")
             restart = input('\nWould you like to restart? Enter yes or no.\n')
             if restart.lower() != 'yes':
                 break
