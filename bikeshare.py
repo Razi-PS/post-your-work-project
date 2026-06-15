@@ -215,7 +215,7 @@ def main():
         
         # Handle when the dataframe is empty
         if df.empty:
-            print("\nNo data found for the selected filters. Please try a different month/day combination.")
+            print("\nNo data were found for the selected filters. Please try a different month/day combination.")
             restart = input('\nWould you like to restart? Enter yes or no.\n')
             if restart.lower() != 'yes':
                 break
