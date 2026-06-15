@@ -17,11 +17,11 @@ This could include:
 
 ## Contribution guidelines
 
-If you welcome contributions, provide guidelines on how others can contribute to your project.
+This is an educational project for the Udacity Programming for Data Science Nanodegree. While contributions are not expected for this specific submission, please feel free to fork this repository and experiment with it!
 
 ## Credits
 
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit goes to Udacity.
 
 ## Date created
 
