@@ -3,16 +3,17 @@
 
 # Project Title
 
-Describe what your project is about and what it does
+This project analyzes US bikeshare data for three major cities: Chicago, New York City, and Washington, D.C. The Python script (`bikeshare.py`) processes raw CSV data to calculate descriptive statistics, such as the most popular times of day, stations, and user demographics. It helps users understand usage patterns without needing to manually sift through large datasets.
 
 ## Information about how to use your project
 
 This could include:
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/Razi-PS/post-your-work-project.git   
+2. Navigate into the project directory: cd post-your-work-project
+3. Ensure the data files (chicago.csv, new_york_city.csv, washington.csv) and the script (bikeshare.py) are in this folder.
 
 ## Contribution guidelines
 
